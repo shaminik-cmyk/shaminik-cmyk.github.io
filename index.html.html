@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Shamini K · Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ffffff;--alt:#f5f7fa;--ink:#0f1b2d;--muted:#5b6778;--line:#e2e7ee;--accent:#2457c5;--accent-soft:#e8effc;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:4.5rem;scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.7 Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:960px;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3,h4{margin:0;line-height:1.25;font-weight:650}
+h2{font-size:1.6rem;margin-bottom:1.5rem;padding-bottom:.6rem;border-bottom:2px solid var(--accent);display:inline-block}
+h3{font-size:1.1rem}
+h4{font-size:.95rem;margin:1rem 0 .25rem}
+p{margin:0 0 1rem;max-width:68ch}
+ul{margin:.25rem 0 1rem;padding-left:1.2rem}
+li{margin-bottom:.2rem}
+section{padding:3.5rem 0}
+section.alt{background:var(--alt)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:rgba(255,255,255,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:1.4rem;align-items:center;padding-top:.85rem;padding-bottom:.85rem;overflow-x:auto;white-space:nowrap}
+nav a{color:var(--muted);text-decoration:none;font-size:.92rem;font-weight:500}
+nav a:hover{color:var(--accent)}
+nav .brand{margin-right:auto;color:var(--ink);font-weight:700;font-size:1rem}
+.hero{padding:4.5rem 0 4rem}
+.hero h1{font-size:clamp(2.4rem,7vw,3.6rem);letter-spacing:-.02em;font-weight:700}
+.hero .role{font-size:1.25rem;color:var(--accent);font-weight:500;margin:.5rem 0 1.25rem}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem;margin:1.5rem 0}
+.btn{display:inline-block;padding:.65rem 1.3rem;border-radius:8px;font-weight:600;font-size:.95rem;text-decoration:none;border:1.5px solid var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);color:#fff}
+.meta{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;color:var(--muted);font-size:.95rem}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+.skills h3{font-size:.95rem;color:var(--muted);font-weight:600;margin-bottom:.5rem}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem}
+.tag{background:var(--accent-soft);color:var(--accent);border-radius:6px;padding:.2rem .65rem;font-size:.88rem;font-weight:500}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.5rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.25rem}
+.grid .card p{margin-bottom:.5rem}
+.stack{font-size:.88rem;color:var(--muted);margin-top:.5rem}
+.job{padding:0 0 2rem 1.25rem;border-left:2px solid var(--line);position:relative}
+.job:last-child{padding-bottom:0}
+.job::before{content:"";position:absolute;left:-6px;top:.45rem;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.job .when{color:var(--muted);font-size:.92rem;margin:.15rem 0 .6rem}
+.big{font-size:1.4rem;font-weight:700;margin-top:.5rem}
+.certs{list-style:none;padding:0;margin:1.25rem 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.certs li{margin:0;padding:1rem 1.1rem;border:1px solid var(--line);border-radius:10px;background:#fff}
+.certs b{display:block;font-weight:600}.certs span{color:var(--muted);font-size:.9rem}
+.bring{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+.bring p{margin:.25rem 0 0;color:var(--muted)}
+.contact dl{display:grid;grid-template-columns:auto 1fr;gap:.6rem 1.5rem;margin:1.25rem 0 0}
+.contact dt{color:var(--muted)}.contact dd{margin:0;overflow-wrap:anywhere}
+footer{padding:1.5rem 0 2rem;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav aria-label="Sections"><div class="wrap">
+  <a class="brand" href="#top">Shamini K</a>
+  <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+</div></nav>
+
+<header id="top" class="hero"><div class="wrap">
+  <h1>Shamini K</h1>
+  <div class="role">Computer Science Engineering Student | Software Developer</div>
+  <p>Final-year B.E. student with hands-on experience in Java, Spring Boot, React, databases and software testing. Looking for my first Software Engineer role.</p>
+  <div class="btns">
+    <a class="btn primary" href="#projects">View projects</a>
+    <a class="btn" href="#contact">Contact me</a>
+  </div>
+  <div class="meta"><span>Chennai, Tamil Nadu</span><a href="https://linkedin.com/in/shamini-kumar">LinkedIn</a><a href="https://github.com/shaminik-cmyk">GitHub</a><a href="mailto:shaminikshaminik@gmail.com">Email</a></div>
+</div></header>
+
+<section id="about" class="alt"><div class="wrap">
+  <h2>About me</h2>
+  <p>I'm a final-year B.E. Computer Science and Engineering student with hands-on experience in software development, web technologies, databases and software testing.</p>
+  <p>Through academic projects and internships I've worked with Java, Python, SQL, React, Spring Boot, REST APIs, MySQL and MongoDB. I enjoy building practical applications, solving programming problems, working with databases, and understanding how software systems are designed and tested.</p>
+  <p>I'm looking for a Software Engineer opportunity where I can apply my technical knowledge and problem-solving skills while continuing to learn and grow.</p>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>Technical skills</h2>
+  <div class="skills">
+    <div><h3>Programming</h3><div class="tags"><span class="tag">C</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">SQL</span></div></div>
+    <div><h3>Web technologies</h3><div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">React</span></div></div>
+    <div><h3>Backend</h3><div class="tags"><span class="tag">Spring Boot</span><span class="tag">Express.js</span><span class="tag">REST APIs</span></div></div>
+    <div><h3>Databases</h3><div class="tags"><span class="tag">MySQL</span><span class="tag">MongoDB</span></div></div>
+    <div><h3>Tools and platforms</h3><div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span><span class="tag">Microsoft Azure</span><span class="tag">Power BI</span><span class="tag">Figma</span></div></div>
+    <div><h3>Core concepts</h3><div class="tags"><span class="tag">OOP</span><span class="tag">Data Structures &amp; Algorithms</span><span class="tag">DBMS</span><span class="tag">SDLC</span><span class="tag">Agile</span><span class="tag">Software Testing</span><span class="tag">Version Control</span><span class="tag">Microservices (basic)</span></div></div>
+  </div>
+</div></section>
+
+<section id="projects" class="alt"><div class="wrap">
+  <h2>Projects</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>Bank Management System</h3>
+      <p>A banking application to manage accounts and transactions, built to apply relational database concepts.</p>
+      <h4>Key features</h4>
+      <ul><li>Account and transaction management</li><li>Primary and foreign key relationships</li><li>Basic encryption for secure data handling</li></ul>
+      <h4>What I worked on</h4>
+      <ul><li>Designed the database relationships</li><li>Implemented account and transaction functionality</li><li>Applied basic encryption techniques</li></ul>
+      <div class="stack">Java · SQL · Database</div>
+    </article>
+    <article class="card">
+      <h3>Smart Farm Assist</h3>
+      <p>A responsive agriculture-support web app for crop management and farmer assistance, with database integration.</p>
+      <h4>Key features</h4>
+      <ul><li>Crop management and farmer assistance</li><li>Real-time data modules</li><li>Interactive interface with form validation</li></ul>
+      <h4>What I worked on</h4>
+      <ul><li>Built responsive pages with HTML, CSS and JavaScript</li><li>Added DOM manipulation, form validation and database integration</li><li>Improved user experience with interactive UI components</li></ul>
+      <div class="stack">HTML · CSS · JavaScript · Database</div>
+    </article>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <h2>Internship experience</h2>
+  <div class="job">
+    <h3>Full Stack Development Intern</h3>
+    <div class="when">Weedo Infotech · June 2026</div>
+    <ul><li>Developed responsive web applications with HTML, CSS, JavaScript and React</li><li>Built backend functionality with Spring Boot and integrated REST APIs</li><li>Worked with database connectivity</li><li>Used Git and GitHub; contributed to debugging, testing and performance improvements</li></ul>
+  </div>
+  <div class="job">
+    <h3>Software Testing Intern</h3>
+    <div class="when">8 Queens Software Technologies Pvt. Ltd. · May 2025</div>
+    <ul><li>Performed manual testing and executed test cases</li><li>Reported defects and gained exposure to defect management</li><li>Worked within SDLC and STLC processes</li><li>Collaborated with development teams to validate application functionality</li></ul>
+  </div>
+</div></section>
+
+<section id="education" class="alt"><div class="wrap">
+  <h2>Education and certifications</h2>
+  <div class="grid">
+    <article class="card"><h3>B.E. Computer Science and Engineering</h3><p>St. Peter's College of Engineering and Technology<br>2023 – Present</p><div class="big">CGPA 7.59 / 10</div></article>
+    <article class="card"><h3>HSC</h3><p>St. Mary's Matriculation Girls Higher Secondary School, Chennai<br>2023</p><div class="big">64.33%</div></article>
+  </div>
+  <ul class="certs">
+    <li><b>Microsoft Azure Fundamentals</b><span>Microsoft</span></li>
+    <li><b>Software Development and Testing</b><span>Infosys</span></li>
+    <li><b>Python Developer Path</b><span>MongoDB</span></li>
+    <li><b>Introduction to Java</b><span>Infosys Springboard</span></li>
+    <li><b>Virtual Internship Program</b><span>ServiceNow</span></li>
+  </ul>
+</div></section>
+
+<section id="bring"><div class="wrap">
+  <h2>What I bring</h2>
+  <div class="bring">
+    <div><h3>Problem solving</h3><p>I apply programming and database concepts to build practical solutions.</p></div>
+    <div><h3>Full stack development</h3><p>Hands-on with frontend, backend, REST APIs and databases.</p></div>
+    <div><h3>Software testing</h3><p>Manual testing, test case execution, defect reporting, SDLC and STLC.</p></div>
+    <div><h3>Database development</h3><p>Relational and NoSQL experience with MySQL and MongoDB.</p></div>
+    <div><h3>Version control</h3><p>Collaborative development with Git and GitHub.</p></div>
+    <div><h3>Continuous learning</h3><p>Keen to grow through real-world software development.</p></div>
+  </div>
+</div></section>
+
+<section id="contact" class="alt contact"><div class="wrap">
+  <h2>Let's connect</h2>
+  <p>I'm open to opportunities in Software Engineering, Full Stack Development, Java Development, Web Development and Software Testing.</p>
+  <dl>
+    <dt>Email</dt><dd><a href="mailto:shaminikshaminik@gmail.com">shaminikshaminik@gmail.com</a></dd>
+    <dt>Phone</dt><dd><a href="tel:+918778708915">+91 87787 08915</a></dd>
+    <dt>Location</dt><dd>Chennai, Tamil Nadu</dd>
+    <dt>LinkedIn</dt><dd><a href="https://linkedin.com/in/shamini-kumar">linkedin.com/in/shamini-kumar</a></dd>
+    <dt>GitHub</dt><dd><a href="https://github.com/shaminik-cmyk">github.com/shaminik-cmyk</a></dd>
+  </dl>
+</div></section>
+
+<footer>© 2026 Shamini K</footer>
+</body>
+</html>
